@@ -1,0 +1,9 @@
+.parks-rec-container{
+    margin:auto;
+    object-position: center;
+}
+img{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
