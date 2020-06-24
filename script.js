@@ -3,6 +3,8 @@ $(document).ready(function() {
 
 //Click on image, logs that person.
 $("img").on("click", function(){
+$(".characters-container").hide();
+$(".gif-container").show();
 $("#gifUrl").empty();
 var characterName = $(this).attr("value");
 console.log(characterName + " clicked.");

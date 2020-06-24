@@ -1,7 +1,13 @@
-.parks-rec-container{
+.characters-container{
     margin:auto;
     object-position: center;
+    display: block;
 }
+
+.gif-container{
+    display:none;
+}
+
 .title{
     font-size: 40px;
     text-align: center;
