@@ -1,6 +1,6 @@
 $(document).ready(function() {
-var gifApiKey = "3jMvNzOuh5eBAmKGoigDH6ZFcSFVgdoG";
-var gifURL= "https://api.giphy.com/v1/gifs/translate?api_key="+ gifApiKey + "&s=" + characterName;
+// var gifApiKey = "3jMvNzOuh5eBAmKGoigDH6ZFcSFVgdoG";
+// var gifURL= "https://api.giphy.com/v1/gifs/translate?api_key="+ gifApiKey + "&s=" + characterName;
 
 // $.ajax({
 //     url: gifURL,
@@ -11,5 +11,10 @@ var gifURL= "https://api.giphy.com/v1/gifs/translate?api_key="+ gifApiKey + "&s=
 // var imageUrl = response.data.images.original.url;
 // })
 
+
+$("img").on("click", function(){
+    var imageValue = $(this).attr("value");
+console.log(imageValue);
+})
 
 });
