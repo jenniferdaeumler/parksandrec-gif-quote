@@ -5,7 +5,7 @@ $(document).ready(function() {
 $("img").on("click", function(){
 $(".characters-container").hide();
 $(".gif-container").show();
-$("#gifUrl").empty();
+$("#gif-url").empty();
 var characterName = $(this).attr("value");
 console.log(characterName + " clicked.");
 
@@ -24,7 +24,7 @@ var characterGifDisplay = $("<img>");
 
 // Setting the catImage src attribute to imageUrl
 characterGifDisplay.attr("src", imageUrl);
-$("#gifUrl").append(characterGifDisplay);
+$("#gif-url").append(characterGifDisplay);
 
 
 // if (imageValue === "Leslie Knope"){

@@ -31,6 +31,11 @@ img{
     text-align: center;
 }
 
+#gif-url{
+    width: 450px;
+    height:450px;
+    text-align: center;
+}
 /* 
 font-family: 'Krona One', sans-serif;
 font-family: 'Roboto', sans-serif; */
