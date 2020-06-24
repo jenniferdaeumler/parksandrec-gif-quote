@@ -3,6 +3,7 @@ $(document).ready(function() {
 
 //Click on image, logs that person.
 $("img").on("click", function(){
+$("#gifUrl").empty();
 var characterName = $(this).attr("value");
 console.log(characterName + " clicked.");
 
