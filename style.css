@@ -18,7 +18,7 @@
     font-size: 20px;
     text-align: center;
 }
-img{
+.characterPic{
     border: 2px;
     border-style: solid;
     border-color: black;
@@ -34,8 +34,11 @@ img{
 #gif-url{
     width: 450px;
     height:450px;
+    margin: 0 auto;
     text-align: center;
 }
+
+
 /* 
 font-family: 'Krona One', sans-serif;
 font-family: 'Roboto', sans-serif; */
